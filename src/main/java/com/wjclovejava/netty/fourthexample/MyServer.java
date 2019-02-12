@@ -10,7 +10,7 @@ import io.netty.handler.logging.LoggingHandler;
 
 /**
  * @Author: wjc
- * @Description:
+ * @Description:  多用于心跳检测
  * @Date: created in 2019/1/30 10:32
  */
 public class MyServer {
