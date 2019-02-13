@@ -8,6 +8,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
+import java.util.ArrayList;
+
 /**
  * @Author: wjc
  * @Description:  多用于心跳检测
@@ -29,6 +31,7 @@ public class MyServer {
         } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
+
         }
     }
 }
